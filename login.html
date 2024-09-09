@@ -6,11 +6,22 @@
 
     <link href="./src/output.css" rel="stylesheet">
 
+    <!-- font cdn -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  
+
     <title>Document</title>
 </head>
 <body>
-    <div class="container bg-black">
-        <h1 class="flex justify-center font-extrabold text-blue-700">KONTOLL</h1>
-    </div>
+  <navbar class="fixed top-0 left-0 z-10 flex items-center w-full bg-slate700">
+    <div class="container flex justify-between px-4">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link" href="#">deposit</a>
+              <a class="nav-link" href="#">whitdraw</a>
+              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">transaksi</a>
+            <a href="#home" class="block py-6 text-lg font-bold text-blue-700 left-6">Navbar</a>
+            <a href="https://www.instagram.com/roronoaa_adim?igsh=cm4zMTI4bXVqMnh5" class="py-6 text-lg font-bold text-yellow-400">Deposit</a>
+        </div>
+    </navbar>
 </body>
 </html>
